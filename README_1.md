@@ -23,5 +23,16 @@ Q4. Yes indeed, there are instructions for contributing to the OneSignal Android
     
 Q5.
 Q6.
-Q7.
+Q7. The release notes for the OneSignal Android SDK on GitHub are typically organized in reverse chronological order, with the most recent release displayed at the top. Each release is presented as a separate entry and includes information about the release version, release date, and notable changes or updates.
+
+Here is a typical structure of the release notes on the OneSignal Android SDK GitHub page:
+
+    - Release Version and Date: The release version number and the date of the release are mentioned at the beginning of each entry. This helps users identify the specific release they are              interested in.
+    - Release Highlights: Following the version and date, there is usually a section that highlights the key changes or updates introduced in the release. This section provides a brief overview         of the significant improvements, bug fixes, new features, or enhancements made to the SDK.
+    - Detailed Changelog: After the release highlights, a detailed changelog is often provided. This section lists all the specific changes, bug fixes, and improvements made in the release. It          may include information about resolved issues, added functionality, modified behavior, and any other relevant details.
+    - Deprecated Features or Breaking Changes: If there are any deprecated features or breaking changes that users need to be aware of when upgrading to the new release, they are typically              mentioned separately. This helps developers understand the potential impact of the update on their existing integrations.
+    - Additional Information: Depending on the release, there might be additional information provided, such as installation instructions, usage guidelines, or any other relevant notes specific         to that release.
+
+By organizing the release notes in this manner, users can easily navigate through the different versions of the OneSignal Android SDK, understand the changes made in each release, and assess the impact of those changes on their projects.
+
 Q8.
