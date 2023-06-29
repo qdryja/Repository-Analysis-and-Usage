@@ -17,7 +17,21 @@ Q4. Yes, there are instructions on how to contribute to Project Helidon. The mai
 -Code: To contribute to code, first sign the Oracle Contributor Agreement (OCA). Then, fork the repo, fix an issue or create one and fix it, and create a Pull Request then wait for a response or review.
 Additionally, contributors should follow the Golden Rule and adhere to the Contributor Covenant Code of Conduct.
 
-Q5.
+Q5. The automated checks in the provided GitHub project include:
+   Assigning Issues to Projects: The assign-issue-to-project.yml workflow automatically assigns newly opened or reopened issues to the "Backlog Triage" project.
+   Creating Backport Issues: The create-backport-issues.yml workflow allows manual triggering to create backport issues based on the provided issue number and Helidon version.
+   Release Process: The release.yaml workflow is triggered on push events to branches starting with "release-". It sets up the environment, executes release scripts, and uploads staged artifacts.
+   Code Quality and Validation: The validate.yaml workflow is triggered on pull_request events, push events (excluding "release-" and "test-release-" branches), and workflow_call events. It includes several jobs for checking code quality and validating the project:
+   Copyright: Checks copyright information.
+   Checkstyle: Performs code style checks.
+   Spotbugs: Performs static analysis using SpotBugs.
+   Build: Builds the project and archives test results.
+   Docs: Generates project documentation.
+   TCK: Performs Technology Compatibility Kit (TCK) checks.
+   Examples: Builds and verifies example projects.
+   Archetypes: Tests project archetypes.
+   Packaging: Builds and tests packaging options (JAR, JLink, Native-Image).
+
 Q6.
 Q7.
 Q8. The license used in the Helidon repository is the Apache License, Version 2.0. The Apache License is considered a permissive open-source license. Here are some key aspects of the license:
