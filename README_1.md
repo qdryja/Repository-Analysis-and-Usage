@@ -33,7 +33,7 @@ Q7. The release notes for the OneSignal Android SDK on GitHub are typically orga
 
 By organizing the release notes in this manner, users can easily navigate through the different versions of the OneSignal Android SDK, understand the changes made in each release, and assess the impact of those changes on their projects.
 
-Q8. The license of the project described in the provided information is the MIT License. The MIT License is a permissive open source license that allows users to freely use, modify, distribute,   and sell copies of the software. It is considered permissive because it imposes minimal restrictions on the use and distribution of the software.
+Q8. The license of used in this repository is the MIT License. The MIT License is a permissive open source license that allows users to freely use, modify, distribute,   and sell copies of the software. It is considered permissive because it imposes minimal restrictions on the use and distribution of the software.
     The MIT License grants permission to any person obtaining a copy of the software to deal with it without restriction, including the rights to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software. However, there are two conditions that must be met:
     - The copyright notice and permission notice must be included in all copies or substantial portions of the software. This ensures that the original copyright information is preserved and properly attributed.
     - All copies of substantial portions of the software may only be used in connection with services provided by OneSignal. This condition specifies that the software is intended for use in conjunction with OneSignal services.
