@@ -1,7 +1,8 @@
 Repository - helidon - analysis
 https://github.com/helidon-io/helidon
 
-Q1.
+Q1. The helidon project is a set of Java Libraries for writing microservices. It supports two programming models: Helidon MP (MicroProfile 5.0) and Helidon SE, which provides a small, functional-style API. The project aims to provide a framework for building microservices in Java. The repository has a history of development and has been active for several years (first release Sep 15, 2018). It currently has a total of 2,855 commits in the main branch and has attracted contributions from 73 collaborators.
+
 Q2. The commits are very disorganized, in fact, only a few amount of commits have a title which start with a descriptive word such as add, upadrage and restore. The rest are all very consfusing, not detailed enough, making it difficult to navigate threw and understanding the scope of the commit before analysing it further. I would say that the users generally do not follow good formatting, lowering the general quality of the repository.
 
 Q3. The repository have some good practice format but could be improved. We can divide the issues into four categories, each as important.
