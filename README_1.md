@@ -24,4 +24,8 @@ Q4. Yes indeed, there are instructions for contributing to the OneSignal Android
 Q5.
 Q6.
 Q7.
-Q8.
+
+Q8. The license of the project described in the provided information is the MIT License. The MIT License is a permissive open source license that allows users to freely use, modify, distribute,   and sell copies of the software. It is considered permissive because it imposes minimal restrictions on the use and distribution of the software.
+The MIT License grants permission to any person obtaining a copy of the software to deal with it without restriction, including the rights to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software. However, there are two conditions that must be met:
+    - The copyright notice and permission notice must be included in all copies or substantial portions of the software. This ensures that the original copyright information is preserved and             properly attributed.
+    - All copies of substantial portions of the software may only be used in connection with services provided by OneSignal. This condition specifies that the software is intended for use in             conjunction with OneSignal services.
