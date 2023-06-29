@@ -18,7 +18,13 @@ Additionally, contributors should follow the Golden Rule and adhere to the Contr
 
 Q5.
 Q6.
-Q7.
+
+Q7. The release notes for the Helidon on GitHub are typically organized in reverse chronological order, with the most recent release displayed at the top. Each release is presented as a separate entry and includes information about the release version, and notable changes or updates.
+Each entry is composed with a brief description about the updates and a bullet list with specific changes. 
+
+By organizing the release notes in this manner, users can easily navigate through the different versions of the Helidon, understand the changes made in each release, and assess the impact of those changes on their projects. Moreover, for sake of readability, every component of this bullet list is structured as follows:
+What does the change refer to - Description - ID as a hyperlink to the pull request 
+
 Q8. The license used in the Helidon repository is the Apache License, Version 2.0. The Apache License is considered a permissive open-source license. Here are some key aspects of the license:
  Permissions: 
  - Commercial use
