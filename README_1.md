@@ -20,8 +20,15 @@ Q4. Yes indeed, there are instructions for contributing to the OneSignal Android
     -Describe your environment.
     -Include a stack trace if needed.
     -If possible and not too complicated to do, add an example project.
+    
+Q5. The automated checks on a commit pushed to the main branch include:
+        Linting: The Ci.yml workflow includes a step for linting the code using ktlintCheck.
+        Code Analysis: The Ci.yml workflow includes a step for code analysis using detekt.
+        Unit Tests: The Ci.yml workflow includes a step for running unit tests using unittest:testReleaseUnitTest.
+        Release Drafting: The Release-drafter.yml workflow automatically drafts release notes as pull requests are merged into the main branch.
+        Response Time Setting: The Set-response-time.yml workflow sets the response time for an issue when an issue comment is created or an issue is closed.
+        These automated checks help ensure code quality, streamline release processes, and manage response time for issues in the project.
 
-Q5.
 
 Q6. In the context of pull requests for the OneSignal Android SDK on GitHub, several automated checks are performed on commits and comments to maintain code quality and adherence to established guidelines. While the specific checks may vary, here is an examples of the automated check and tools used:
     - Continuous Integration (CI) builds and tests: CI systems, Travis CI in this case, can be set up to automatically build the project and run a suite of tests on each pull request. This        includes running unit tests, integration tests, and any other relevant tests to ensure the code is functioning correctly. Such a tests has been performed at "WIP - Move send saved outcomes to foreground #1390" pull request.
