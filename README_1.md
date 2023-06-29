@@ -1,7 +1,7 @@
 Repository - OneSignal-Android-SDK - analysis
 https://github.com/onesignal/onesignal-android-sdk
 
-Q1.
+Q1. The OneSignal-Android-SDK project is a plugin that facilitates the integration of the OneSignal push notification service with native Android or Amazon apps. It provides functionality for sending email, SMS, push notifications, and in-app messages to mobile app users. The project has a history of development and has been active for several years(first release Apr 7, 2015). It has a total of 1,727 commits in the main branch and has attracted contributions from 32 collaborators.
 
 Q2. First of all, the titles are descriptive and generally concise. The first word is used to describe the main changement that has been committed such as merge, add, update and fix. Although the descriptions are clear, they do not exactly always follow the same sintax, in fact, a small amount of commits use uncommon key-words format or directly explain the changement being made in the commit, decreasing the quality of the commits. It is generally adviced to explicitely indicate the scope of the commit by adding a well describing word as the first term of the commit and then additional concise information. With taht been said, this is generally followed but could be implemented even more intensily.
 
@@ -20,7 +20,7 @@ Q4. Yes indeed, there are instructions for contributing to the OneSignal Android
     -Describe your environment.
     -Include a stack trace if needed.
     -If possible and not too complicated to do, add an example project.
-    
+
 Q5.
 
 Q6. In the context of pull requests for the OneSignal Android SDK on GitHub, several automated checks are performed on commits and comments to maintain code quality and adherence to established guidelines. While the specific checks may vary, here is an examples of the automated check and tools used:
