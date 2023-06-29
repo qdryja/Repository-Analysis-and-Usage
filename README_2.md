@@ -32,7 +32,16 @@ Q5. The automated checks in the provided GitHub project include:
    Archetypes: Tests project archetypes.
    Packaging: Builds and tests packaging options (JAR, JLink, Native-Image).
 
-Q6.
+Q6. In the context of pull requests for the Helidon on GitHub, several automated checks are performed on commits and comments to maintain code quality and adherence to established guidelines. While the specific checks may vary, here is an examples of the automated check and tools used: 
+- Copyright: This check ensures that the appropriate copyright information is present in the codebase, demonstrating compliance with licensing requirements.
+- Checkstyle: Checkstyle is a tool used to enforce a consistent code style and formatting across the project. It checks the code against predefined rules to ensure readability and maintainability.
+- SpotBugs: SpotBugs is a static code analysis tool used to identify potential bugs, code quality issues, and security vulnerabilities in the codebase.
+- Docs: This check likely involves verifying the quality and completeness of the project documentation, ensuring it meets certain standards.
+- Build: These checks involve building the project on different environments, such as Ubuntu 20.04 and macOS latest, to ensure that it can be successfully compiled and packaged.
+- Examples: These checks likely involve running the examples provided in the repository to ensure they are working correctly on different environments.
+- MicroProfile TCKs: MicroProfile TCKs (Technology Compatibility Kits) are used to validate that the project complies with the MicroProfile specification. This check ensures compatibility and compliance with the defined standards.
+- Archetypes: Archetypes are project templates that facilitate the creation of new projects. The archetype checks likely involve ensuring that the provided project archetypes work as expected on Ubuntu 20.04.
+- Packaging: These checks involve verifying the packaging process of the project, ensuring that the resulting artifacts are correctly generated and can be deployed.
 Q7.
 Q8. The license used in the Helidon repository is the Apache License, Version 2.0. The Apache License is considered a permissive open-source license. Here are some key aspects of the license:
  Permissions: 
