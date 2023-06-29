@@ -22,7 +22,11 @@ Q4. Yes indeed, there are instructions for contributing to the OneSignal Android
     -If possible and not too complicated to do, add an example project.
     
 Q5.
-Q6.
+
+Q6. In the context of pull requests for the OneSignal Android SDK on GitHub, several automated checks are performed on commits and comments to maintain code quality and adherence to established guidelines. While the specific checks may vary, here is an examples of the automated check and tools used:
+    - Continuous Integration (CI) builds and tests: CI systems, Travis CI in this case, can be set up to automatically build the project and run a suite of tests on each pull request. This        includes running unit tests, integration tests, and any other relevant tests to ensure the code is functioning correctly. Such a tests has been performed at "WIP - Move send saved outcomes to foreground #1390" pull request.
+    
+
 Q7. The release notes for the OneSignal Android SDK on GitHub are typically organized in reverse chronological order, with the most recent release displayed at the top. Each release is presented as a separate entry and includes information about the release version, release date, and notable changes or updates.
     Here is a typical structure of the release notes on the OneSignal Android SDK GitHub page:
    - Release Version and Date: The release version number and the date of the release are mentioned at the beginning of each entry. This helps users identify the specific release they are interested in.
